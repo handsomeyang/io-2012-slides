@@ -129,7 +129,7 @@ slides > slide {
   }
 
   &:not(.nobackground) {
-    //background: white url(../../images/google_developers_icon_128.png) ($brand-small-icon-size * 2) 98% no-repeat;
+    //background: white url(../../images/pkuece.png) ($brand-small-icon-size * 2) 98% no-repeat;
     //@include background-size($brand-small-icon-size $brand-small-icon-size);
 
     &:before {
@@ -138,9 +138,10 @@ slides > slide {
       position: absolute;
       bottom: $slide-top-bottom-padding / 2;
       left: $slide-left-right-padding;
-      background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
-      @include background-size($brand-small-icon-size $brand-small-icon-size);
+      background: url(../../images/pkuece.png) no-repeat 0 50%;
+      @include background-size($brand-small-icon-size*2 $brand-small-icon-size);
       padding-left: $brand-small-icon-size + 10;
+      width: $brand-small-icon-size*2;
       height: $brand-small-icon-size;
       line-height: 1.9;
     }
@@ -157,7 +158,7 @@ slides > slide {
   &.title-slide {
     &:after {
       content: '';
-      //background: url(../../images/io2012_logo.png) no-repeat 100% 50%;
+      //background: url(../../images/pkuece.png) no-repeat 100% 50%;
       //@include background-size(contain);
       position: absolute;
       bottom: $slide-top-bottom-padding;
@@ -802,7 +803,7 @@ article.smaller {
 .logoslide {
   img {
     width: 383px;
-    height: 92px;
+//    height: 92px;
   }
 }
 
