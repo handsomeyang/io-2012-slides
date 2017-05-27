@@ -1,3 +1,8 @@
+# io-2012-slides modified to use custom logos
+[Check out the live demo](https://handsomeyang.github.io/io-2012-slides/).
+
+---
+
 <style>
 @import "http://fonts.googleapis.com/css?family=Open Sans:regular,semibold,italic,italicsemibold|Inconsolata&amp;v2";
 body {
